@@ -5,7 +5,7 @@
         <name>            <en>ZKIVSE</en>
         </name>
         <specs>
-            <power>450</power>
+            <power>650</power>
             <maxSpeed>50</maxSpeed>
             <workingWidth>5</workingWidth>
         </specs>
@@ -253,8 +253,8 @@
             </differentialConfiguration>
         </differentialConfigurations>
         <motorConfigurations>
-            <motorConfiguration name="ZKIVSE" hp="450" price="0">
-                <motor torqueScale="2.458" minRpm="650" maxRpm="2700" maxForwardSpeed="50" maxBackwardSpeed="15" brakeForce="20" lowBrakeForceScale="0.1" lowBrakeForceSpeedLimit="1" dampingRateScale="4.2">
+            <motorConfiguration name="ZKIVSE" hp="650" price="0">
+                <motor torqueScale="2.458" minRpm="650" maxRpm="2700" maxForwardSpeed="50" maxBackwardSpeed="15" brakeForce="30" lowBrakeForceScale="0.1" lowBrakeForceSpeedLimit="1" dampingRateScale="4.2">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
@@ -882,7 +882,7 @@
         <haulmDrop delay="8"/>
     </cutter>
     <dischargeable consumePower="false">
-        <dischargeNode node="dischargeNode" emptySpeed="1430" fillUnitIndex="1" maxDistance="15">
+        <dischargeNode node="dischargeNode" emptySpeed="2430" fillUnitIndex="1" maxDistance="15">
             <info width="1.25" length="0.5"/>
             <raycast yOffset="1.5"/>
             <effects>
