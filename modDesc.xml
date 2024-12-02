@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="90">
+    <author>Mario</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Karrotenfresser</en>
+    </title>
+    <description>
+        <en>Frisst auch ihre Spaßtinacken</en>
+    </description>
+    <iconFilename>store_zkivSe.png</iconFilename>
+    <storeItems>
+        <storeItem xmlFilename="zkivSe.xml"/>
+    </storeItems>
+	<multiplayer supported="true"/>
+</modDesc>
