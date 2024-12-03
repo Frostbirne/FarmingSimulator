@@ -5,7 +5,7 @@
         <name>            <en>ZKIVSE</en>
         </name>
         <specs>
-            <power>650</power>
+            <power>750</power>
             <maxSpeed>50</maxSpeed>
             <workingWidth>5</workingWidth>
         </specs>
@@ -253,8 +253,8 @@
             </differentialConfiguration>
         </differentialConfigurations>
         <motorConfigurations>
-            <motorConfiguration name="ZKIVSE" hp="650" price="0">
-                <motor torqueScale="2.458" minRpm="650" maxRpm="2700" maxForwardSpeed="50" maxBackwardSpeed="15" brakeForce="30" lowBrakeForceScale="0.1" lowBrakeForceSpeedLimit="1" dampingRateScale="4.2">
+            <motorConfiguration name="ZKIVSE" hp="750" price="0">
+                <motor torqueScale="2.458" minRpm="650" maxRpm="2200" maxForwardSpeed="50" maxBackwardSpeed="15" brakeForce="35" lowBrakeForceScale="0.1" lowBrakeForceSpeedLimit="1" dampingRateScale="4.2">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
@@ -262,7 +262,7 @@
                     <torque normRpm="0.86" torque="0.88"/>
                     <torque normRpm="1" torque="0.72"/>
                 </motor>
-                <transmission minForwardGearRatio="20.5" maxForwardGearRatio="320" minBackwardGearRatio="36.5" maxBackwardGearRatio="320" name="$l10n_info_transmission_cvt"/>
+                <transmission minForwardGearRatio="13.55" maxForwardGearRatio="300" minBackwardGearRatio="32" maxBackwardGearRatio="300" name="$l10n_info_transmission_cvt"/>
             </motorConfiguration>
         </motorConfigurations>
         <exhaustEffects>
